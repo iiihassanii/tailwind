@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flex</title>
+  </head>
+  <body>
+    <!-- https://tailwindcss.com/docs/flex -->
+     <div class="border m-10 p-8 overflow-x-auto">
+      <ul class="flex">
+        <li class="bg-teal-200 p-5 m-5 flex-1">01</li>
+        <li class="bg-teal-200 p-5 m-5 flex-grow">02</li>
+        <li class="bg-teal-200 p-5 m-5">03</li>
+        <li class="bg-teal-200 p-5 m-5">04</li>
+        <li class="bg-teal-200 p-5 m-5">05</li>
+      </ul>
+     </div>
+
+    <!-- https://tailwindcss.com/docs/flex-direction#column -->
+    <div class="border m-10 p-8">
+      <ul class="flex flex-col">
+        <li class="bg-teal-200 p-5 m-5">01</li>
+        <li class="bg-teal-200 p-5 m-5">02</li>
+        <li class="bg-teal-200 p-5 m-5">03</li>
+        <li class="bg-teal-200 p-5 m-5">04</li>
+        <li class="bg-teal-200 p-5 m-5">05</li>
+      </ul>
+     </div>
+
+    <!-- https://tailwindcss.com/docs/justify-items -->
+    <div class="border m-10 p-8">
+      <ul class="flex justify-center">
+        <li class="bg-teal-200 p-5 m-5">01</li>
+        <li class="bg-teal-200 p-5 m-5">02</li>
+        <li class="bg-teal-200 p-5 m-5">03</li>
+        <li class="bg-teal-200 p-5 m-5">04</li>
+        <li class="bg-teal-200 p-5 m-5">05</li>
+      </ul>
+     </div>
+
+    <!-- https://tailwindcss.com/docs/order -->
+    <div class="border m-10 p-8">
+      <ul class="flex justify-center">
+        <li class="bg-teal-200 p-5 m-5 order-4">01</li>
+        <li class="bg-teal-200 p-5 m-5">02</li>
+        <li class="bg-teal-200 p-5 m-5">03</li>
+        <li class="bg-teal-200 p-5 m-5">04</li>
+        <li class="bg-teal-200 p-5 m-5">05</li>
+      </ul>
+     </div>
+
+    <!-- Grow and shrink -->
+    <!-- https://tailwindcss.com/docs/flex-shrink -->
+    <div class="border m-10 p-8">
+      <ul class="flex w-100">
+        <li class="p-5 m-5 w-64 bg-teal-200 flex-none">01</li>
+        <li class="p-5 m-5 w-64 bg-teal-200 flex-initial">02</li>
+        <li class="p-5 m-5 w-64 bg-teal-200 flex-auto">03</li>
+        <li class="p-5 m-5 w-64 bg-teal-200 flex-1">04</li>
+        <li class="p-5 m-5 w-64 bg-teal-200 flex-1">05</li>
+        <li class="p-5 m-5 w-64 bg-teal-200">06</li>
+        <li class="p-5 m-5 w-64 bg-teal-200">07</li>
+      </ul>
+     </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "1.-rainbow-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./style/input.css -o ./style/style.css "
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}

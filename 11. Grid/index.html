@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Grid</title>
+  </head>
+  <body class="p-10 bg-indigo-950">
+    <!-- https://tailwindcss.com/docs/grid-template-rows -->
+    <div class="w-100 grid grid-cols-3 gap-4 grid-rows-3">
+      <div class="p-10 bg-blue-200">01</div>
+      <div class="p-10 bg-blue-200">02</div>
+      <div class="p-10 bg-blue-200">03</div>
+      <div class="p-10 bg-blue-200">04</div>
+      <div class="p-10 bg-blue-200">05</div>
+      <div class="p-10 bg-blue-200">06</div>
+      <div class="p-10 bg-blue-200">07</div>
+      <div class="p-10 bg-blue-200">08</div>
+      <div class="p-10 bg-blue-200">09</div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <div class="w-100 grid sm:grid-cols-3 sm:grid-rows-4 gap-4 text-white grid-rows-6 ">
+      <div class="p-10 col-span-2 row-span-2 rounded-lg bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  transition duration-500 ease-in-out hover:scale-105">
+        <p class="text-white font-mono"> Hello my name is Hassan Abdelwahid </p>
+      </div>
+      <div class="p-10 bg-indigo-900 rounded-lg">02</div>
+      <div class="p-10 bg-indigo-900 rounded-lg sm:row-span-2">03</div>
+      <div class="p-10 bg-indigo-900 rounded-lg col-span-2">04</div>
+      <div class="p-10 bg-indigo-900 rounded-lg">05</div>
+      <div class="p-10 bg-indigo-900 rounded-lg sm:col-span-2">06</div>
+    </div>
+    
+    
+  </body>
+</html>
